@@ -1,20 +1,17 @@
-# CodeIgniter 4 Application Starter
+# Purchasing System
 
-## What is CodeIgniter?
+## Latar Belakang
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible, and secure. 
-More information can be found at the [official site](http://codeigniter.com).
+"System Purchasing" ini di-inisiasi oleh departemen purchasing BJWI dengan kepala departemen Pak Suwandi dan dikembangkan serta dirancang secara mandiri oleh Arta Kusuma H. (Staff IT Support) pada November 2020. 
+Sistem ini dibuat dengan tujuan untuk me-record seluruh data Permintaan Pembelian (PP) yang sudah disetujui oleh direksi (pada saat dibuat adalah Mr. Li).
 
-This repository holds a composer-installable app starter.
-It has been built from the 
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Components
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
-
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/). 
-
-## Installation & updates
+- Codeigniter 4 (PHP Backend)
+- Stexo Admin Template (Front-End Template)
+- Bootstrap 4
+- JavaScript
+- MySQL
 
 `composer create-project codeigniter4/appstarter` then `composer update` whenever
 there is a new release of the framework.
