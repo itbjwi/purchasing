@@ -8,7 +8,7 @@
                         <i class="mdi mdi-alert-octagon bg-warning text-white"></i>
                     </div>
                     <div>
-                        <a href="<?= base_url('pembelian') ?>" class="font-16">Urgent</a>
+                        <a href="<?= base_url('pembelian/all_data_urgent') ?>" class="font-16">Urgent</a>
                     </div>
                     <h3 class="mt-4"><?= $tot_urgent?></h3>
                 </div>
@@ -22,7 +22,7 @@
                         <i class="mdi mdi-close-box-multiple bg-danger text-white"></i>
                     </div>
                     <div>
-                        <a href="<?= base_url('pembelian') ?>" class="font-16">Unfinish</a>
+                        <a href="<?= base_url('pembelian/all_data_unfinish') ?>" class="font-16">Unfinish</a>
                     </div>
                     <h3 class="mt-4"><?= $tot_unfinish ?></h3>
                 </div>
@@ -35,7 +35,7 @@
                         <i class="mdi mdi-check-bold bg-success text-white"></i>
                     </div>
                     <div>
-                        <a href="<?= base_url('pembelian') ?> " class="font-16">Finish</a>
+                        <a href="<?= base_url('pembelian/all_data_finish') ?> " class="font-16">Finish</a>
                     </div>
                     <h3 class="mt-4"><?= $tot_finish ?></h3>
                 </div>
@@ -48,7 +48,7 @@
                         <i class="mdi mdi-pause-circle bg-secondary text-white"></i>
                     </div>
                     <div>
-                        <a href="<?= base_url('pembelian') ?> " class="font-16">Pending</a>
+                        <a href="<?= base_url('pembelian/all_data_pending') ?> " class="font-16">Pending</a>
                     </div>
                     <h3 class="mt-4"><?= $tot_pending ?></h3>
                 </div>
@@ -78,7 +78,7 @@
                         <i class="mdi mdi-database-plus bg-primary text-white"></i>
                     </div>
                     <div>
-                        <a href="<?= base_url('pembelian') ?> " class="font-16">New <?= $tgl ?></a>
+                        <a href="<?= base_url('pembelian/all_data_today') ?> " class="font-16">New <?= $tgl ?></a>
                     </div>
                     <h3 class="mt-4"><?= $tot_today ?></h3>
                 </div>
