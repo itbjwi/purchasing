@@ -27,7 +27,7 @@
                 </li>
 
                 <li>
-                    <a href="<?= site_url('pembelian') ?>" class="waves-effect">
+                    <a href="<?= site_url('pembelian/all_data_unfinish') ?>" class="waves-effect">
                         <i class="icon-paper-pen"></i> <span> Data P. Pembelian </span>
                     </a>
                 </li>
