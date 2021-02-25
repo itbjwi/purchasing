@@ -18,7 +18,7 @@ class Model_log extends Model
     {
         return $this->db->table('tbl_log')
             ->orderBy('id_log', 'DESC')
-            ->where('tgl_log BETWEEN CURDATE() - INTERVAL 7 DAY AND CURDATE()')
+            ->where('tgl_log BETWEEN CURDATE() - INTERVAL 7 DAY AND NOW()')
             ->get()
             ->getResultArray();
     }

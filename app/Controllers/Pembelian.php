@@ -148,7 +148,7 @@ class Pembelian extends BaseController
 			};
 		} else {
 			session()->setFlashdata('errors', \Config\Services::validation()->getErrors());
-			return redirect()->to('/public/pembelian');
+			return redirect()->to('/public/pembelian/all_data_unfinish');
 		}
 		
 	}
@@ -184,7 +184,7 @@ class Pembelian extends BaseController
 		]);
 
 		session()->setFlashdata('pesan', 'Permintaan Pembelian Finish');
-		return redirect()->to('/public/pembelian');
+		return redirect()->to('/public/pembelian/all_data_unfinish');
 	}
 
 	// Mendapatkan Data Edit Admin Data PP //
@@ -228,7 +228,7 @@ class Pembelian extends BaseController
 		]);
 
 		session()->setFlashdata('pesan', 'Permintaan Pembelian Berhasil Diedit!');
-		return redirect()->to('/public/pembelian');
+		return redirect()->to('/public/pembelian/all_data_unfinish');
 	}
 	
 	// Edit as User Data PP //
@@ -254,7 +254,7 @@ class Pembelian extends BaseController
 		]);
 
 		session()->setFlashdata('pesan', 'Permintaan Pembelian Berhasil Diedit!');
-		return redirect()->to('/public/pembelian');
+		return redirect()->to('/public/pembelian/all_data_unfinish');
 	}
 
 	// Get Status Data PP Pending //
@@ -280,7 +280,7 @@ class Pembelian extends BaseController
 		$this->Model_pembelian->edit($data);
 
 		session()->setFlashdata('pesan', 'Permintaan Pembelian Dipending!');
-		return redirect()->to('/public/pembelian');
+		return redirect()->to('/public/pembelian/all_data_unfinish');
 	}
 
 
