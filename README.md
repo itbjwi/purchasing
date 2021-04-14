@@ -1,10 +1,5 @@
 # Purchasing System
 
-## Latar Belakang
-
-"System Purchasing" ini di-inisiasi oleh departemen purchasing BJWI dengan kepala departemen Pak Suwandi dan dikembangkan serta dirancang secara mandiri oleh Arta Kusuma H. (Staff IT Support) pada November 2020. 
-Sistem ini dibuat dengan tujuan untuk me-record seluruh data Permintaan Pembelian (PP) yang sudah disetujui oleh direksi (pada saat dibuat adalah Mr. Li).
-
 ## Components
 
 - Codeigniter 4 (PHP Backend)
